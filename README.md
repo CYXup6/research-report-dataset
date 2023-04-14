@@ -3,9 +3,9 @@
 1. Install the required package: PyMuPDF==1.20.2
 
 2. Replace the value of the following variables in the **generate_content.py** with the correct paths:
- - **metadata**: the path to the metadata JSON file.
- - **dataset**: the path to the dataset JSON file.
- - **directory**: the path to the folder containing the research report PDF files.
+     - **metadata**: the path to the metadata JSON file.
+     - **dataset**: the path to the dataset JSON file.
+     - **directory**: the path to the folder containing the research report PDF files.
 
 3. To run the script, simply run the following command:
 ```bash
