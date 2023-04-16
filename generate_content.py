@@ -84,11 +84,5 @@ for index,instance in enumerate(anno_data):
     except Exception as e:
         print(e)
 
-with open(f'{dataset}(with_content).json',"w") as fp:
+with open(str(Path(dataset).with_suffix(''))+"(with_content).json","w") as fp: 
     json.dump(anno_data,fp)
-
-
-
-
-
-
